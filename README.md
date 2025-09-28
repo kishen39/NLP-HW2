@@ -6,6 +6,7 @@
 
 # 📊 Q3 Overview
 The system evaluates **classification performance** using a confusion matrix from an animal classification task where 90 animals were classified into Cat, Dog, or Rabbit. The tool computes comprehensive evaluation metrics to assess model effectiveness across different animal categories.
+
 1️⃣ **Input Data:**
 ```python
 System \ Gold  Cat  Dog  Rabbit
@@ -19,6 +20,7 @@ Per-class Metrics: Precision and recall calculations for each category
 Macro-averaging: Equal weight averaging across all classes
 Micro-averaging: Pooled metrics considering class distribution
 Support Statistics: TP, FP, FN, TN computations
+
 2️⃣Key Computations:
 ```python
 # Precision: TP / (TP + FP)
@@ -26,6 +28,7 @@ Support Statistics: TP, FP, FN, TN computations
 # Macro-average: Mean of per-class metrics
 # Micro-average: Global pooled metrics
 ```
+
 📈 Sample Results
 ```python
 Per-class Performance:
